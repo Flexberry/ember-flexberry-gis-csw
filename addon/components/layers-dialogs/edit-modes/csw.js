@@ -14,7 +14,7 @@ import {
   JSON-object containing string constants with CSS-classes names related to component's .hbs markup elements.
 
   @property {Object} flexberryClassNames
-  @property {String} flexberryClassNames.prefix Component's CSS-class names prefix ('flexberry-edit-mode').
+  @property {String} flexberryClassNames.prefix Component's CSS-class names prefix ('flexberry-edit-mode-csw').
   @property {String} flexberryClassNames.wrapper Component's wrapping <div> CSS-class name (null, because component is tagless).
   @readonly
   @static
@@ -28,8 +28,6 @@ const flexberryClassNames = {
 };
 
 /**
-  Flexberry add layer modal dialog with [Semantic UI modal](http://semantic-ui.com/modules/modal.html) style.
-
   @class CswModeComponent
   @extends BaseModeComponent
 */

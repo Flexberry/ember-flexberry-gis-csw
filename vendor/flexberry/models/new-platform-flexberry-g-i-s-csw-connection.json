@@ -1,0 +1,161 @@
+﻿{
+  "name": "NewPlatformFlexberryGISCswConnection",
+  "modelName": "new-platform-flexberry-g-i-s-csw-connection",
+  "className": "CswConnection",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": true,
+      "defaultValue": ""
+    },
+    {
+      "name": "url",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": true,
+      "defaultValue": ""
+    },
+    {
+      "name": "createTime",
+      "type": "string",
+      "flexberryType": "AuditNullableDateTime",
+      "notNull": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "creator",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "editTime",
+      "type": "string",
+      "flexberryType": "AuditNullableDateTime",
+      "notNull": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "editor",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "createTime",
+      "type": "string",
+      "flexberryType": "AuditNullableDateTime",
+      "notNull": false,
+      "defaultValue": null
+    },
+    {
+      "name": "creator",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": null
+    },
+    {
+      "name": "editTime",
+      "type": "string",
+      "flexberryType": "AuditNullableDateTime",
+      "notNull": false,
+      "defaultValue": null
+    },
+    {
+      "name": "editor",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": null
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "AuditView",
+      "modelName": "new-platform-flexberry-g-i-s-csw-connection",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "creator",
+          "caption": "Creator",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "createTime",
+          "caption": "Create time",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "editor",
+          "caption": "Editor",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "editTime",
+          "caption": "Edit time",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "CswConnectionE",
+      "modelName": "new-platform-flexberry-g-i-s-csw-connection",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "url",
+          "caption": "Url",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "CswConnectionL",
+      "modelName": "new-platform-flexberry-g-i-s-csw-connection",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "url",
+          "caption": "Url",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ]
+}

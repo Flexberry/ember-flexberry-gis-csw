@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-flexberry-gis-esri',
+  name: 'ember-flexberry-gis-csw',
 
   isDevelopingAddon() {
     return true;

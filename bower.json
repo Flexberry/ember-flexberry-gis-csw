@@ -6,7 +6,6 @@
     "ember-cli-test-loader": "0.2.2",
     "ember-qunit-notifications": "0.1.0",
     "leaflet": "1.0.1",
-    "osmtogeojson": "2.2.12",
     "ows.js": "0.1.5"
   }
 }

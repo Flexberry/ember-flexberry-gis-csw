@@ -1,41 +1,39 @@
-/**
-  @module ember-flexberry-gis
-*/
-
 import Ember from 'ember';
 import DS from 'ember-data';
 import { Projection } from 'ember-flexberry-data';
-
-/**
-  Mixin containing map model attributes, relations & projections.
-
-  @class NewPlatformFlexberyGISCswConnectionModelMixin
-  @extends <a href="http://emberjs.com/api/classes/Ember.Mixin.html">Ember.Mixin</a>
-*/
 export let Model = Ember.Mixin.create({
   name: DS.attr('string'),
   url: DS.attr('string'),
-
-  getValidations() {
+  createTime: DS.attr('string'),
+  creator: DS.attr('string'),
+  editTime: DS.attr('string'),
+  editor: DS.attr('string'),
+  getValidations: function () {
     let parentValidations = this._super();
     let thisValidations = {
+      name: { presence: true },
+      url: { presence: true }
     };
     return Ember.$.extend(true, {}, parentValidations, thisValidations);
   },
-
-  init() {
+  init: function () {
     this.set('validations', this.getValidations());
     this._super.apply(this, arguments);
   }
 });
-
 export let defineProjections = function (model) {
-  model.defineProjection('CswConnectionE', 'new-platform-flexberry-g-i-s-map', {
+  model.defineProjection('AuditView', 'new-platform-flexberry-g-i-s-csw-connection', {
+    name: Projection.attr('Name'),
+    creator: Projection.attr('Creator'),
+    createTime: Projection.attr('Create time'),
+    editor: Projection.attr('Editor'),
+    editTime: Projection.attr('Edit time')
+  });
+  model.defineProjection('CswConnectionE', 'new-platform-flexberry-g-i-s-csw-connection', {
     name: Projection.attr('Name'),
     url: Projection.attr('Url')
   });
-
-  model.defineProjection('CswConnectionL', 'new-platform-flexberry-g-i-s-map', {
+  model.defineProjection('CswConnectionL', 'new-platform-flexberry-g-i-s-csw-connection', {
     name: Projection.attr('Name'),
     url: Projection.attr('Url')
   });

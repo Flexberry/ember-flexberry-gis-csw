@@ -8,7 +8,7 @@ import BaseEditMode from 'ember-flexberry-gis/edit-modes/-private/base';
   @class CswEditMode
 */
 export default Object.assign(BaseEditMode, {
-  requiredProperties: ['layer', 'coordinateReferenceSystemCode', 'cswConnections', 'leafletMap'],
+  requiredProperties: ['cswConnections', 'leafletMap'],
 
   name: "csw"
 });
