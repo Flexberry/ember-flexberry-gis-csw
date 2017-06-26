@@ -1,26 +1,9 @@
-# Ember-flexberry-gis-csw
+# ember-flexberry-gis-csw addon
+Built to be used with [ember-flexberry-gis](https://github.com/Flexberry/ember-flexberry-gis)
 
-This README outlines the details of collaborating on this Ember addon.
-
-## Installation
-
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+## Usage
+* Add ember-flexberry-gis-csw into projects' dependencies
+* Install ember-flexberry-gis-csw
+* Add map-route-csw-loader mixin into map route
+* Add ember-flexberry-gis-csw into locales
+* Add backend storage for new-platform-flexberry-g-i-s-csw-connection model
