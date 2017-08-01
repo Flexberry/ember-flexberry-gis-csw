@@ -5,16 +5,16 @@ import NewPlatformFlexberryGISCswConnectionLForm from './forms/new-platform-flex
 import NewPlatformFlexberryGISCswConnectionEForm from './forms/new-platform-flexberry-g-i-s-csw-connection-e';
 
 export default {
-  'models': {
+  models: {
     'new-platform-flexberry-g-i-s-csw-connection': NewPlatformFlexberryGISMapCswConnectionModel
   },
-  'components': {
+  components: {
     'layers-dialogs': {
       'edit-modes': EditModes
     },
     'flexberry-csw': FlexberryCSWComponent
   },
-  'forms': {
+  forms: {
     'new-platform-flexberry-g-i-s-csw-connection-l': NewPlatformFlexberryGISCswConnectionLForm,
     'new-platform-flexberry-g-i-s-csw-connection-e': NewPlatformFlexberryGISCswConnectionEForm
   }

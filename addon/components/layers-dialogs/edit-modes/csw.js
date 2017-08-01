@@ -5,10 +5,10 @@
 import Ember from 'ember';
 import BaseModeComponent from 'ember-flexberry-gis/components/layers-dialogs/edit-modes/base';
 import layout from '../../../templates/components/layers-dialogs/edit-modes/csw';
-import {
+/*import {
   translationMacro as t
 } from 'ember-i18n';
-
+*/
 /**
   Component's CSS-classes names.
   JSON-object containing string constants with CSS-classes names related to component's .hbs markup elements.
@@ -74,14 +74,14 @@ let CswModeComponent = BaseModeComponent.extend({
       let settings = layerClass.createSetingsFromCsw(record);
 
       let layer = {
-        'type': Ember.get(record, 'type'),
-        'name': Ember.get(record, 'title'),
-        'settings': settings,
-        'coordinateReferenceSystem': {
+        type: Ember.get(record, 'type'),
+        name: Ember.get(record, 'title'),
+        settings: settings,
+        coordinateReferenceSystem: {
           code: Ember.get(record, 'crs'),
           definition: null
         }
-      }
+      };
 
       this.sendAction('editingFinished', layer);
     }

@@ -1,44 +1,44 @@
 export default {
   'error-message': {
-    'caption': 'Ошибка'
+    caption: 'Ошибка'
   },
   'connection-dropdown': {
-    'caption': 'Соединение с каталогом сервисов'
+    caption: 'Соединение с каталогом сервисов'
   },
   'search-settings': {
-    'caption': 'Настройки поиска записей',
+    caption: 'Настройки поиска записей',
     'keywords-textbox': {
-      'caption': 'Ключевые слова'
+      caption: 'Ключевые слова'
     },
     'bounding-box': {
-      'caption': 'Границы поиска',
-      'modes': {
+      caption: 'Границы поиска',
+      modes: {
         'no-bounding-box': {
-          'caption': 'Без учета границ'
+          caption: 'Без учета границ'
         },
         'map-bounding-box': {
-          'caption': 'В текущих границах карты'
+          caption: 'В текущих границах карты'
         }
       },
       'mode-dropdown': {
-        'caption': 'Режим'
+        caption: 'Режим'
       },
       'min-x-textbox': {
-        'caption': 'Mин X'
+        caption: 'Mин X'
       },
       'max-x-textbox': {
-        'caption': 'Mакс X'
+        caption: 'Mакс X'
       },
       'min-y-textbox': {
-        'caption': 'Mин Y'
+        caption: 'Mин Y'
       },
       'max-y-textbox': {
-        'caption': 'Mакс Y'
+        caption: 'Mакс Y'
       }
     }
   },
   'records-table': {
-    'caption': 'Записи',
+    caption: 'Записи',
     'headers': {
       'id': {
         'caption': 'Идентификатор'

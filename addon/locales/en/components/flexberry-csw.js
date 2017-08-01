@@ -1,60 +1,60 @@
 export default {
   'error-message': {
-    'caption': 'Error'
+    caption: 'Error'
   },
   'connection-dropdown': {
-    'caption': 'Services catalog connection'
+    caption: 'Services catalog connection'
   },
   'search-settings': {
-    'caption': 'Search settings',
+    caption: 'Search settings',
     'keywords-textbox': {
-      'caption': 'Keywords'
+      caption: 'Keywords'
     },
     'bounding-box': {
-      'caption': 'Bounding box',
-      'modes': {
+      caption: 'Bounding box',
+      modes: {
         'no-bounding-box': {
-          'caption': 'Without bounding box'
+          caption: 'Without bounding box'
         },
         'map-bounding-box': {
-          'caption': 'Map\'s current bounding box'
+          caption: 'Map\'s current bounding box'
         }
       },
       'mode-dropdown': {
-        'caption': 'Mode'
+        caption: 'Mode'
       },
       'min-x-textbox': {
-        'caption': 'Min X'
+        caption: 'Min X'
       },
       'max-x-textbox': {
-        'caption': 'Max X'
+        caption: 'Max X'
       },
       'min-y-textbox': {
-        'caption': 'Min Y'
+        caption: 'Min Y'
       },
       'max-y-textbox': {
-        'caption': 'Max Y'
+        caption: 'Max Y'
       }
     }
   },
   'records-table': {
-    'caption': 'Records',
-    'headers': {
-      'id': {
-        'caption': 'Id'
+    caption: 'Records',
+    headers: {
+      id: {
+        caption: 'Id'
       },
-      'title': {
-        'caption': 'Title'
+      title: {
+        caption: 'Title'
       },
-      'type': {
-        'caption': 'Type'
+      type: {
+        caption: 'Type'
       },
-      'crs': {
-        'caption': 'Coordinate system'
+      crs: {
+        caption: 'Coordinate system'
       }
     },
     'no-records': {
-      'caption': 'No records'
+      caption: 'No records'
     },
   }
 };

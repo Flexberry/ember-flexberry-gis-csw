@@ -120,9 +120,9 @@ let FlexberryCswComponent = Ember.Component.extend({
       return Ember.A();
     }
 
-    let availableConnections = Ember.A(connections.filter((connection, i) => {
-      return Ember.get(connection, 'isDeleted') !== true;
-    }));
+    let availableConnections = Ember.A(connections.filter((connection, i) => 
+      Ember.get(connection, 'isDeleted') !== true
+    ));
 
     let selectedConnection = this.get('selectedConnection');
     if (!Ember.isNone(selectedConnection) && !availableConnections.contains(selectedConnection)) {
