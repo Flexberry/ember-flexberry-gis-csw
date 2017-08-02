@@ -120,7 +120,7 @@ let FlexberryCswComponent = Ember.Component.extend({
       return Ember.A();
     }
 
-    let availableConnections = Ember.A(connections.filter((connection, i) => 
+    let availableConnections = Ember.A(connections.filter((connection, i) =>
       Ember.get(connection, 'isDeleted') !== true
     ));
 

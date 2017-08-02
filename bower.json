@@ -7,6 +7,20 @@
     "ember-cli-test-loader": "0.2.2",
     "ember-qunit-notifications": "0.1.0",
     "leaflet": "1.0.1",
-    "ows.js": "0.1.5"
+    "ows.js": "0.1.5",
+    "leaflet.editable": "master",
+    "leaflet-editable-measures": "0.1.0",
+    "leaflet-export": "0.1.0",
+    "leaflet-history": "Flexberry/leaflet-history#d67e852ae405a0ca2f6cd069d2f0ff048d7a5ce8",
+    "proj4leaflet": "1.0.1",
+    "Leaflet-WFST": "develop",
+    "leaflet.wms": "gh-pages",
+    "leaflet-minimap": "3.4.0",
+    "osmtogeojson": "2.2.12",
+    "js-beautify": "1.6.4",
+    "seiyria-bootstrap-slider": "~6.0.6",
+    "jquery-minicolors": "2.2.6",
+    "leaflet-switch-scale-control": "0.1.0",
+    "leaflet.zoomslider": "Flexberry/Leaflet.zoomslider#leaflet-1.0.1"
   }
 }

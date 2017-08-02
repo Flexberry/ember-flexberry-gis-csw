@@ -39,22 +39,22 @@ export default {
   },
   'records-table': {
     caption: 'Записи',
-    'headers': {
-      'id': {
-        'caption': 'Идентификатор'
+    headers: {
+      id: {
+        caption: 'Идентификатор'
       },
-      'title': {
-        'caption': 'Название'
+      title: {
+        caption: 'Название'
       },
-      'type': {
-        'caption': 'Тип'
+      type: {
+        caption: 'Тип'
       },
-      'crs': {
-        'caption': 'Система координат'
+      crs: {
+        caption: 'Система координат'
       }
     },
     'no-records': {
-      'caption': 'Нет записей'
+      caption: 'Нет записей'
     },
   }
 };
