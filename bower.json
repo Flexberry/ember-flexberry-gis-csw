@@ -2,25 +2,34 @@
   "name": "ember-flexberry-gis-csw",
   "version": "0.1.1",
   "dependencies": {
+    "ember": "ember-flexberry dependencies",
     "ember": "~2.4.3",
     "ember-cli-shims": "0.1.1",
     "ember-cli-test-loader": "0.2.2",
     "ember-qunit-notifications": "0.1.0",
+
+    "jquery-minicolors": "ember-flexberry-gis dependencies",
+    "jquery-minicolors": "2.2.6",
+    "js-beautify": "1.6.4",
     "leaflet": "1.0.1",
-    "ows.js": "0.1.5",
     "leaflet.editable": "master",
     "leaflet-editable-measures": "0.1.0",
-    "leaflet-export": "0.1.0",
+    "leaflet-export": "0.2.0-beta.1",
     "leaflet-history": "Flexberry/leaflet-history#d67e852ae405a0ca2f6cd069d2f0ff048d7a5ce8",
-    "proj4leaflet": "1.0.1",
-    "Leaflet-WFST": "develop",
-    "leaflet.wms": "gh-pages",
     "leaflet-minimap": "3.4.0",
-    "osmtogeojson": "2.2.12",
-    "js-beautify": "1.6.4",
-    "seiyria-bootstrap-slider": "~6.0.6",
-    "jquery-minicolors": "2.2.6",
     "leaflet-switch-scale-control": "0.1.0",
-    "leaflet.zoomslider": "Flexberry/Leaflet.zoomslider#leaflet-1.0.1"
+    "Leaflet-WFST": "v2.0.0-beta.1",
+    "leaflet-wms": "v1.1.0-beta.1",
+    "leaflet.wms": "gh-pages",
+    "leaflet.zoomslider": "Flexberry/Leaflet.zoomslider#leaflet-1.0.1",
+    "osmtogeojson": "2.2.12",
+    "proj4leaflet": "1.0.1",
+    "seiyria-bootstrap-slider": "~6.0.6",
+
+    "ows.js": "ember-flexberry-gis-csw dependencies",
+    "ows.js": "0.1.5"
+  },
+  "resolutions": {
+    "leaflet": "1.0.1"
   }
 }
