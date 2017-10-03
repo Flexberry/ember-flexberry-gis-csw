@@ -14,8 +14,19 @@ module.exports = function(environment) {
     },
 
     APP: {
-      // Here you can pass flags/options to your application instance
-      // when it is created
+      backendUrls: {
+        root: 'https://flexberry.github.io/ember-flexberry-gis-csw',
+        api: 'https://flexberry.github.io/ember-flexberry-gis-csw'
+      },
+
+      // Log service settings.
+      log: {
+        // Flag: indicates whether log service is enabled or not.
+        enabled: false
+      },
+
+      // Flag: indicates whether to use user settings service or not.
+      useUserSettingsService: false
     }
   };
 
