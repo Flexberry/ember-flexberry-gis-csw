@@ -3,8 +3,8 @@
 */
 
 import Ember from 'ember';
-import BaseModeComponent from 'ember-flexberry-gis/components/layers-dialogs/edit-modes/base';
-import layout from '../../../templates/components/layers-dialogs/edit-modes/csw';
+import BaseModeComponent from 'ember-flexberry-gis/components/layers-dialogs/layers-prototyping-modes/base';
+import layout from '../../../templates/components/layers-dialogs/layers-prototyping-modes/csw';
 /*import {
   translationMacro as t
 } from 'ember-i18n';

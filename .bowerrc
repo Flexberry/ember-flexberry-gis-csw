@@ -1,4 +1,7 @@
 {
   "directory": "bower_components",
-  "analytics": false
+  "analytics": false,
+  "registry": "http://dh.ics.perm.ru:5678",
+  "proxy":"",
+  "https-proxy":""
 }
