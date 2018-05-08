@@ -53,8 +53,8 @@ export default EditMapRoute.extend(EditFormRouteOperationsIndicationMixin, MapRo
       name: 'WMS with based on existing record from services catalog',
       visibility: true,
       coordinateReferenceSystem: '{"code":"EPSG:4326"}',
-      settings: '{"url":"http://watzmann.geog.uni-heidelberg.de/cached/histosm/wms", "showOnMinimap":true, "version":"1.3.0", '+
-        '"info_format":"text/html", "feature_count":100, "layers":"osm_auto:osm_lulc,osm_auto:histosm2_temp,europe_wms:hs_srtm_europa,osm_auto:all", '+
+      settings: '{"url":"http://watzmann.geog.uni-heidelberg.de/cached/histosm/wms", "showOnMinimap":true, "version":"1.3.0", ' +
+        '"info_format":"text/html", "feature_count":100, "layers":"osm_auto:osm_lulc,osm_auto:histosm2_temp,europe_wms:hs_srtm_europa,osm_auto:all", ' +
         '"format":"image/png" }',
       index: 0
     });
