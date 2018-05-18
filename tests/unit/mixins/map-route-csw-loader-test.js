@@ -14,14 +14,3 @@ test('it should call _loadCswConnection on model hook', function(assert) {
 
   assert.ok(_loadCswConnections.called);
 });
-
-test('it should pass cswConnections to controller on setupController hook', function(assert) {
-  let MapRouteCswLoaderObject = Ember.Object.extend(MapRouteCswLoaderMixin);
-  let cswConnections = {};
-  let subject = MapRouteCswLoaderObject.create({ cswConnections });
-  let controller = Ember.Object.create();
-
-  subject.setupController(controller);
-
-  assert.equal(controller.get('cswConnections'), cswConnections);
-});

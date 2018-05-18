@@ -1,4 +1,4 @@
-import EditModes from './components/layers-dialogs/edit-modes';
+import EditModes from './components/layers-dialogs/layers-prototyping-modes';
 import FlexberryCSWComponent from './components/flexberry-csw';
 import NewPlatformFlexberryGISMapCswConnectionModel from './models/new-platform-flexberry-g-i-s-csw-connection';
 import NewPlatformFlexberryGISCswConnectionLForm from './forms/new-platform-flexberry-g-i-s-csw-connection-l';
@@ -10,7 +10,7 @@ export default {
   },
   components: {
     'layers-dialogs': {
-      'edit-modes': EditModes
+      'layers-prototyping-modes': EditModes
     },
     'flexberry-csw': FlexberryCSWComponent
   },
