@@ -63,15 +63,8 @@ export default EditMapRoute.extend(EditFormRouteOperationsIndicationMixin, MapRo
       tileLayer
     ]));
 
-    this.set('cswConnections', Ember.A([
-      cswConne
-    ]));
+    this.set('cswService.cswConnections', [cswConne]);
 
     return map;
-  },
-
-  setupController(controller) {
-    this._super(...arguments);
-    controller.set('cswConnections', this.get('cswConnections'));
   }
 });

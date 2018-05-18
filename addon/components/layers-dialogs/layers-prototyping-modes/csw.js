@@ -36,13 +36,20 @@ let CswModeComponent = BaseModeComponent.extend({
   layout,
 
   /**
+    Reference to 'csw-connections' service.
+
+    @property cswService
+  */
+  cswService: Ember.inject.service('csw-connections'),
+
+  /**
     Array of property names that will be bound from parentView.
 
     @property bindingProperties
     @type String[]
-    @default ['cswConnections', 'leafletMap']
+    @default ['leafletMap']
   */
-  bindingProperties: ['cswConnections', 'leafletMap'],
+  bindingProperties: ['leafletMap'],
 
   /**
     Loaded CSW connections.
@@ -61,6 +68,16 @@ let CswModeComponent = BaseModeComponent.extend({
     @default null
   */
   leafletMap: null,
+
+  /**
+    Initialize DOM-related properties.
+
+    @method didInsertElement
+  */
+  didInsertElement() {
+    this._super(...arguments);
+    this.set('cswConnections', this.get('cswService').getConnections());
+  },
 
   actions: {
     /**
