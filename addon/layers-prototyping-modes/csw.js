@@ -7,7 +7,7 @@ import BaseEditMode from 'ember-flexberry-gis/layers-prototyping-modes/-private/
 
   @class CswEditMode
 */
-export default Object.assign(BaseEditMode, {
+export default BaseEditMode.extend({
   requiredProperties: ['cswConnections', 'leafletMap'],
 
   name: 'csw'
